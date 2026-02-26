@@ -1,0 +1,14 @@
+PyPDF2>=3.0.0
+streamlit>=1.22.0
+python-dotenv>=1.0.0
+
+# LangChain-related packages (conserver les noms actuels si vous utilisez des forks personnalisés)
+langchain_core>=0.0.1
+langchain_groq>=0.0.1
+langchain_output_parsers>=0.0.1
+langchain_huggingface>=0.0.1
+langchain_community>=0.0.1
+langchain_text_splitters>=0.0.1
+
+# FAISS (CPU build) - installez séparément si besoin
+faiss-cpu>=1.7.4
